@@ -1,0 +1,136 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.footer {
+  background-color: #c7ecee;
+}
+
+.iconContainer {
+  background-color: #c7ecee;
+}
+
+.email {
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  padding: 15px 10px;
+  line-height: 1.4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mailIcon {
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.email .line1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sender {
+  flex: 1;
+}
+
+.subject {
+  flex: 3;
+}
+
+.date {
+  flex: 0.5;
+  text-align: right;
+}
+
+.message {
+  color: #9a9a9a;
+}
+
+.email input[type=checkbox] {
+  flex: 0 0 30px;
+}
+
+.email .pin {
+  flex: 0 0 30px;
+  color: #777;
+}
+
+.content {
+  flex: 1;
+}
+
+/* Media Queries */
+@media screen and (max-width: 650px) {
+  .sender {
+    font-size: 16px;
+  }
+
+  .subject {
+    font-size: 13px;
+  }
+
+  .message {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .sender {
+    font-size: 14px;
+  }
+
+  .subject {
+    font-size: 12px;
+  }
+
+  .message {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .sender {
+    font-size: 12px;
+  }
+
+  .subject {
+    font-size: 11px;
+  }
+
+  .message {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sender {
+    font-size: 10px;
+  }
+
+  .subject {
+    font-size: 10px;
+  }
+
+  .message {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  .sender {
+    font-size: 8px;
+    font-weight: bold;
+  }
+
+  .subject {
+    font-size: 8px;
+  }
+
+  .message {
+    font-size: 8px;
+  }
+}
