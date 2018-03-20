@@ -12,7 +12,7 @@ Author: Zach Mathson
 
 ## Preview
 
-![static-credit-card](https://user-images.githubusercontent.com/32144404/37685257-d86b9be0-2c60-11e8-97c2-049f4b38b60e.jpg)
+![static-email-list](https://user-images.githubusercontent.com/32144404/37688416-01bf6546-2c6e-11e8-9e1e-389e744dc0e3.jpg)
 
 ## How To Run
 
